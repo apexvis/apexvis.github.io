@@ -24,6 +24,7 @@
 }
 body {
   font-size: 14px;
+  background-image: url(./../img/texture3.png);
 }
 body, h1, h2, h3, h4, h5, h6 {
   font-family: "gandhi sans", helvetica, sans-serif;
@@ -191,6 +192,10 @@ footer {
 
 .bgimg {
     background-image: url(./img/k2.png);
+}
+
+.capability-title {
+  font-size: 2.6em;
 }
 
 
