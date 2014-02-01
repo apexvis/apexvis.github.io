@@ -13,7 +13,7 @@ $(document).ready(function(){
             
             // top bar is 80px, 500ms
             $("html,body").animate({
-                    scrollTop: $selection.offset().top - 80
+                    scrollTop: $selection.offset().top - 40
                 }, 500
             );
 
