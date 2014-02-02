@@ -17,8 +17,6 @@ $(document).ready(function(){
                 }, 500
             );
 
-            //$("html,body").animate({scrollTop: $(href).offset().top - 80}, 500);
-
             link.closest(".navbar").find(".navbar-toggle:not(.collapsed)").click();
     });
 
