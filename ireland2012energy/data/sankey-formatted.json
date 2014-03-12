@@ -1,0 +1,35 @@
+{
+"nodes":[
+{"node":0,"name":"Oil"},
+{"node":1,"name":"Natural Gas"},
+{"node":2,"name":"Coal"},
+{"node":3,"name":"Peat"},
+{"node":4,"name":"Fossil"},
+{"node":5,"name":"Wind"},
+{"node":6,"name":"Hydro"},
+{"node":7,"name":"Other Renewable"},
+{"node":8,"name":"Renewables"},
+{"node":9,"name":"Agriculture/Fisheries"},
+{"node":10,"name":"Public Services"},
+{"node":11,"name":"Transport"},
+{"node":12,"name":"Residential"},
+{"node":13,"name":"Industry"}
+],
+"links":[
+{"source":0,"target":4,"value":6005},
+{"source":1,"target":4,"value":4023},    
+{"source":2,"target":4,"value":1482},
+{"source":3,"target":4,"value":802},
+{"source":5,"target":8,"value":345},
+{"source":6,"target":8,"value":69},
+{"source":7,"target":8,"value":468},
+{"source":4,"target":13,"value":1015},
+{"source":8,"target":12,"value":53},
+{"source":4,"target":9,"value":273},
+{"source":4,"target":12,"value":2715},
+{"source":4,"target":11,"value":4195} ,  
+{"source":4,"target":10,"value":1300},
+{"source":8,"target":10,"value":26},
+{"source":8,"target":13,"value":153},
+{"source":8,"target":11,"value":85}
+]}
