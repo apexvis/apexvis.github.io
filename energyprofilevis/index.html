@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>ApexVis Data Mining &mdash; Bring Your Data to Life!</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/strapped.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../img/fav.ico" />
+</head>
+
+<body>
+
+    <nav id="navbar" class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand nav-link" href="../index.html#top">
+                    <img src="../img/apexvis_logo_flat_white2.png">
+                </a>
+            </div>
+            <!-- /.navbar-header -->
+
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="../index.html#aboutext" class="nav-link">About</a>
+                    </li>
+                    <li>
+                        <a href="../index.html#capsext" class="nav-link">Capabilities</a>
+                    </li>
+                    <li>
+                        <a href="../index.html#teamext" class="nav-link">Our Team</a>
+                    </li>
+                    <li>
+                        <a href="../index.html#contactext" class="nav-link">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- /.navbar -->
+
+    <div class="sect-border"></div>
+
+    <h3 class="text-center capability-title subhead">Custom Visualization - Energy Use Profiling</h3>
+
+    <div class="container">
+
+        <p style="font-size:1.2em" class="text-center">Effectively communicating information contained within tables of data sometimes calls for more than just a simple pie chart or bar chart of results. There are often much richer ways to visualize information, depending on the context of the problem.</p>
+        <p style="font-size:1.2em" class="text-center">Sankey diagrams are a custom visualization used to depict categorical flows. This example draws data from the Sustainable Energy Authority of Ireland report, November 2013. Rather than showing data in a series of pie charts and bar charts, this depiction allows the viewer to see at a glance where energy comes from, and where it is being used, with units in kilotonnes of oil equivalent (ktoe)</p>
+
+        <div id="chart"></div>
+
+        <hr />
+
+        <br>
+
+        <p style="font-size:1.2em" class="text-center">Note: unused portions of fossil and renewables are either exports or electricity transmission and conversion losses</p>
+
+        <div class="sect-border"></div>
+
+
+
+    </div>
+
+    <footer>
+        <div class="container clearfix">
+            <p class="pull-left">
+                Copyright &copy; ApexVis 2014
+            </p>
+        </div>
+        <!-- /.container -->
+    </footer>
+
+    <script type="text/javascript" src="js/d3.min.js"></script>
+    <script src="js/sankey.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
